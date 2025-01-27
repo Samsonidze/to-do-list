@@ -108,8 +108,7 @@ ul li:before{
 
 @media(max-width:375px){
     .main{
-        width: 30px;
-        background-color: #002765;
+        width: 300px;
     }
     #addBtn{
         padding: 16px 30px;
