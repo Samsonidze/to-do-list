@@ -12,6 +12,7 @@ addBtn.addEventListener("click", () => {
 
     newListItem.addEventListener("click", () => {
         newListItem.classList.toggle("checked");
+        saveData();
     });
 
     const removeBtn = document.createElement("button");
@@ -39,6 +40,7 @@ function loadData() {
         document.querySelectorAll("li").forEach((listItem) => {
             listItem.addEventListener("click", () => {
                 listItem.classList.toggle("checked");
+                saveData();
             });
 
             const removeBtn = listItem.querySelector(".removeBtn");
