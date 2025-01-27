@@ -96,14 +96,23 @@ ul li:before{
 
 }
 
-@media(min-width:540px){
+@media(max-width:540px){
     .main{
-        width: 400px;
+        width: 300px;
+    }
+    #addBtn{
+        padding: 16px 30px;
+
     }
 }
 
-@media(min-width:440px){
+@media(max-width:375px){
     .main{
-        width: 350px;
+        width: 30px;
+        background-color: #002765;
+    }
+    #addBtn{
+        padding: 16px 30px;
+
     }
 }
